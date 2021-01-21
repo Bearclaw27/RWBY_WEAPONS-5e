@@ -27,7 +27,7 @@
         <Description>
             <p></p>
         </Description>
-        <<setters>
+        <setters>
             <set name="category">Weapons</set>
 			<set name="slot">twohand</set>
 			<set name="damage" type="slashing">1d10</set>
