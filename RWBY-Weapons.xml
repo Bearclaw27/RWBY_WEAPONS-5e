@@ -32,6 +32,7 @@
 			<set name="slot">twohand</set>
 			<set name="damage" type="slashing">1d10</set>
         </setters>
+	</element>
     <element name="Myrtenaster" type="Weapon" source="Homebrew" id="ID_HB_RWBY_WEAPON_MTN">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
