@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>RWBY Weapons</name>
+        <update version="0.0.1">
+			<file name="RWBY-Weapons.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-weapons.xml" />
+		</update>
+    </info>
+
+    <!-- Special -->
+	<element name="Crescent Rose(Sniper Form)" type="Weapon" source="Homebrew" id="ID_HB_RWBY_WEAPON_CRSN">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SPECIAL</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+            <set name="Misfire">1</set>
+            <set name="Range">300/1200</set>
+            <set name="Reload">6</set>
+			<set name="category">Weapons</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="piercing">1d10</set>
+		</setters>
+	</element>
+    <element name="Crescent Rose(Scythe Form)" type="Weapon" source="Homebrew" id="ID_HB_RWBY_WEAPON_CRSC">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SPECIAL</supports>
+        <Description>
+            <p></p>
+        </Description>
+        <<setters>
+            <set name="category">Weapons</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">1d10</set>
+        </setters>
+    <element name="Myrtenaster" type="Weapon" source="Homebrew" id="ID_HB_RWBY_WEAPON_MTN">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
+		</setters>
+	</element>
+    <element name="Gambol Shroud(Gun Form)" type="Weapon" source="Homebrew" id="ID_HB_RWBY_WEAPON_GSGF">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_SPECIAL</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+            <set name="Misfire">1</set>
+            <set name="Range">20/60</set>
+            <set name="Reload">10</set>
+			<set name="category">Weapons</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="piercing">1d8</set>
+		</setters>
+	</element>
+    <element name="Gambol Shroud(Blade)" type="Weapon" source="Homebrew" id="ID_HB_RWBY_WEAPON_GSBL">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE</set>
+		</setters>
+	</element>
+    <element name="Gambol Shroud(Sheathe)" type="Weapon" source="Homebrew" id="ID_HB_RWBY_WEAPON_GSSH">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE</set>
+		</setters>
+	</element>
+    <element name="Gambol Shroud(Sheathed)" type="Weapon" source="Homebrew" id="ID_HB_RWBY_WEAPON_GSBS">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE</set>
+		</setters>
+	</element>
+    <element name="Ember Cilica" type="weapon" source="Homebrew" id="ID_HB_RWBY_EBCC">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_DAMAGE_TYPE_FIRE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SPECIAL</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+            <set name="Misfire">1-2</set>
+            <set name="Range">20/40</set>
+            <set name="Reload">8</set>
+			<set name="category">Weapons</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="piercing">1d8</set>
+		</setters>
+	</element>
+</elements>
