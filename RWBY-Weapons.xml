@@ -3,7 +3,7 @@
 	<info>
 		<name>RWBY Weapons</name>
         <update version="0.0.1">
-			<file name="RWBY-Weapons.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-weapons.xml" />
+			<file name="RWBY-Weapons.xml" url="https://raw.githubusercontent.com/Bearclaw27/RWBY_WEAPONS-5e/master/RWBY-Weapons.xml" />
 		</update>
     </info>
 
