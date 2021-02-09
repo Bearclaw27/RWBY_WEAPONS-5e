@@ -117,4 +117,45 @@
 			<set name="damage" type="piercing">1d8</set>
 		</setters>
 	</element>
+	 <element name="Magnhild(Grenade Launcher Form)" type="weapon" source="Homebrew" id="ID_HB_JNPR_MHGL">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_Force, ID_INTERNAL_DAMAGE_TYPE_FIRE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SPECIAL</supports>
+		<description>
+			<p>Dex Save to hit.
+				10ft circle
+				1d8 + dex and 1d6 Fire</p>
+			
+		</description>
+		<setters>
+            <set name="Misfire">1</set>
+            <set name="Range">40/80</set>
+            <set name="Reload">6</set>
+			<set name="category">Weapons</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="Force">1d8 + 1d6</set>
+		</setters>
+	</element>
+	 <element name="Magnhild(Hammer Form)" type="weapon" source="Homebrew" id="ID_HB_JNPR_MHHF">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_DAMAGE_TYPE_FIRE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SPECIAL</supports>
+		<description>
+			<p>Magnhild
+(Grenade Launcher Form):
+Reload 6, Range (40/80), Explosive, two-handed, Transform, Dust 2, Misfire 1
++Dexterity Mod to hit
+1d8 + Dex Mod force damage and 1d6 fire damage
+
+(Hammer Form):
+Transform, two-handed
++Strength Mod to hit
+1dX + Str Mod bludgeoning damage
+Boosted Hit. (hit and push yourself away w/o provoking opportunity attacks?)</p>
+		</description>
+		<setters>
+            <set name="Misfire">1-2</set>
+            <set name="Range">20/40</set>
+            <set name="Reload">8</set>
+			<set name="category">Weapons</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="piercing">1d8</set>
+		</setters>
+	</element>
 </elements>
